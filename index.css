@@ -1,9 +1,15 @@
+/* Colors
+0A2472
+FFFB46
+FF36AB
+*/
+
 /* General Styles*/
 
 :root {
-  --color-main: #0A2472;
-  --color-secondary: #FFFB46;
-  --color-accent: #FF36AB;
+  --color-main: #fff;
+  --color-secondary: blue;
+  --color-accent: orange;
 }
 
 html {
@@ -11,7 +17,7 @@ html {
 }
 
 body {
-  color: #fff;
+  color: #000;
   background-color: var(--color-main);
   margin: 0;
   padding: 0;
@@ -27,7 +33,7 @@ h1 {
 h3 {
   color: var(--color-secondary);
   font-size: 1.8rem;
-  margin-top: 60px;
+  margin-bottom: 2em;
 }
 
 h3,
@@ -77,10 +83,25 @@ li {
 
 /* Header */
 
+header {
+  background-image: url(images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
 nav {
   color: #fff;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 nav ul {
@@ -91,14 +112,12 @@ nav ul {
 .title,
 .subtitle {
   width: 50%;
-  margin: 0 auto;
-  margin-top: 1em;
-  margin-bottom: 2em;
+  margin: 1em auto 2em auto;
 }
 
 .title span {
   color: var(--color-secondary);
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .social {
@@ -111,16 +130,26 @@ nav ul {
 
 /* Skills Section */
 
+#skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50px, 100px));
-  grid-template-rows: repeat(auto-fill, minmax(50px, 100px));
-  grid-gap: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .svgs {
-  width: 100%;
-  max-height: 100%;
+  max-height: 100px;
+  max-width: 100px;
+  min-height: 60px;
+  min-width: 60px;
 }
 
 /* Main (Work) */
@@ -135,7 +164,6 @@ nav ul {
 }
 
 #work section {
-  border: 2px solid blue;
   height: 300px;
 }
 
@@ -148,13 +176,12 @@ main h3 {
 }
 
 .featured img {
-  display: block;
+  border: 2px solid blue;
+
   object-fit: cover;
   overflow: hidden;
   height: 100%;
   width: 100%;
-  margin: 0;
-  transition: transform 0.3s;
 }
 
 .overlay {
