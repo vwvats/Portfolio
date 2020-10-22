@@ -1,14 +1,10 @@
 const hiddenProjects = document.querySelectorAll('.more-hidden');
-const viewMoreButton = document.querySelector('#view-more');
+const viewButton = document.querySelector('#view-button');
 
 function showMoreProjects() {
-  hiddenProjects.classList.remove('more-hidden');
-  // if (hiddenProjects.classList.contains('more-hidden')) {
-  //   hiddenProjects.classList.remove('more-hidden');
-  //   viewMoreButton.textContent = 'View Fewer'
-  // } else {
-  //   hiddenProjects.classList.add('more-hidden');
-  //   viewMoreButton.textContent = 'View More';
-  // }
+  for (let i = 0; i < hiddenProjects.length; i++) {
+    hiddenProjects[i].classList.toggle('more-hidden');
+  }
+  viewButton.style.display = 'none';
 }
-viewMoreButton.addEventListener('click', showMoreProjects);
+viewButton.addEventListener('click', showMoreProjects);
