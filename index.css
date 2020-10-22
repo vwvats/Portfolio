@@ -1,5 +1,11 @@
 /* General Styles*/
 
+:root {
+  --color-bg: #fff;
+  --color-main: #000;
+  --color-accent: blue;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -20,6 +26,12 @@ h3,
 h4,
 p {
   text-align: center;
+}
+
+button {
+  border: 2px solid var(--color-accent);
+  font-family: inherit;
+  outline: none;
 }
 
 /* Header */
@@ -67,6 +79,15 @@ main h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+}
+
+.overlay button {
+  margin-top: 1em;
+}
+
+.overlay:hover {
+  opacity: 1;
 }
 
 .more-hidden {
