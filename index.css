@@ -1,0 +1,51 @@
+/* General Styles*/
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-left: 1.5em;
+}
+
+h3, 
+p {
+  text-align: center;
+}
+
+/* Header */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  justify-content: center;
+}
+
+.social li:first-child {
+  margin-left: 0;
+}
+
+/* Skills Section */
+
+/* Main (Work) */
+
+/* Footer */
+
+#contact ul {
+  justify-content: center;
+}
+
+#contact li:first-child {
+  margin-left: 0;
+}
