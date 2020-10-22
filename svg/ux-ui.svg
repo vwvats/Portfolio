@@ -1,1 +1,109 @@
-<svg xmlns="http://www.w3.org/2000/svg" data-name="Слой 1" viewBox="0 0 128 160" x="0px" y="0px"><title>ic_web_medical</title><path d="M122.65,16H25.35A5.37,5.37,0,0,0,20,21.38V30a2,2,0,0,0,4,0V21.38A1.38,1.38,0,0,1,25.35,20h97.3A1.38,1.38,0,0,1,124,21.38V90.62A1.38,1.38,0,0,1,122.65,92H46a2,2,0,0,0,0,4H71.88v12H46a2,2,0,0,0,0,4h56a2,2,0,0,0,0-4H75.88V96h46.77A5.37,5.37,0,0,0,128,90.62V21.38A5.37,5.37,0,0,0,122.65,16Z"/><path d="M47.76,44.83a2,2,0,0,0,2.82,0L55.41,40a2,2,0,0,0-2.82-2.83l-3.42,3.42-1.76-1.76a2,2,0,0,0-2.82,2.83Z"/><path d="M62,44H77a2,2,0,0,0,0-4H62a2,2,0,0,0,0,4Z"/><path d="M62,60H74a2,2,0,0,0,0-4H62a2,2,0,0,0,0,4Z"/><path d="M62,76H78a2,2,0,0,0,0-4H62a2,2,0,0,0,0,4Z"/><path d="M44.59,57.66l3.17,3.17a2,2,0,0,0,2.82,0L55.41,56a2,2,0,0,0-2.82-2.83l-3.42,3.42-1.76-1.76a2,2,0,0,0-2.82,2.83Z"/><path d="M44.59,73.66l3.17,3.17a2,2,0,0,0,2.82,0L55.41,72a2,2,0,0,0-2.82-2.83l-3.42,3.42-1.76-1.76a2,2,0,0,0-2.82,2.83Z"/><path d="M33.88,36H6.12A6.12,6.12,0,0,0,0,42.12V97.88A6.12,6.12,0,0,0,6.12,104H33.88A6.12,6.12,0,0,0,40,97.88V42.12A6.12,6.12,0,0,0,33.88,36ZM36,97.88A2.12,2.12,0,0,1,33.88,100H6.12A2.12,2.12,0,0,1,4,97.88V42.12A2.12,2.12,0,0,1,6.12,40H33.88A2.12,2.12,0,0,1,36,42.12Z"/><path d="M17.34,70.75a2,2,0,0,0,2.83,0l7.24-7.25a2,2,0,0,0-2.82-2.82l-5.83,5.83-3.35-3.35A2,2,0,1,0,12.59,66Z"/><path d="M30,76H10a2,2,0,0,0,0,4H30a2,2,0,0,0,0-4Z"/><path d="M18,84H10a2,2,0,0,0,0,4h8a2,2,0,0,0,0-4Z"/><path d="M18,48h4a2,2,0,0,0,0-4H18a2,2,0,0,0,0,4Z"/><path d="M103,76H95a4.1,4.1,0,0,1-4-4V65H84a4.1,4.1,0,0,1-4-4V53a4.11,4.11,0,0,1,4-4h7V42a4.11,4.11,0,0,1,4-4h8a4.11,4.11,0,0,1,4,4v7h7a4.11,4.11,0,0,1,4,4v8a4.11,4.11,0,0,1-4,4h-7v7A4.1,4.1,0,0,1,103,76Zm0-13a2,2,0,0,1,2-2h9V53h-9a2,2,0,0,1-2-2V42H95v9a2,2,0,0,1-2,2H84v8h9a2,2,0,0,1,2,2v9h8Z"/><text x="0" y="143" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by LAFS</text><text x="0" y="148" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   data-name="Слой 1"
+   viewBox="0 0 128 160"
+   x="0px"
+   y="0px"
+   version="1.1"
+   id="svg34"
+   sodipodi:docname="ux-ui.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata40">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs38" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1841"
+     inkscape:window-height="1053"
+     id="namedview36"
+     showgrid="false"
+     inkscape:zoom="1.475"
+     inkscape:cx="64"
+     inkscape:cy="80"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg34" />
+  <title
+     id="title2">ic_web_medical</title>
+  <g
+     id="g860"
+     transform="translate(1.3559322,12.20339)">
+    <path
+       id="path4"
+       d="M 122.65,16 H 25.35 A 5.37,5.37 0 0 0 20,21.38 V 30 a 2,2 0 0 0 4,0 V 21.38 A 1.38,1.38 0 0 1 25.35,20 h 97.3 A 1.38,1.38 0 0 1 124,21.38 V 90.62 A 1.38,1.38 0 0 1 122.65,92 H 46 a 2,2 0 0 0 0,4 h 25.88 v 12 H 46 a 2,2 0 0 0 0,4 h 56 a 2,2 0 0 0 0,-4 H 75.88 V 96 h 46.77 A 5.37,5.37 0 0 0 128,90.62 V 21.38 A 5.37,5.37 0 0 0 122.65,16 Z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path6"
+       d="m 47.76,44.83 a 2,2 0 0 0 2.82,0 L 55.41,40 a 2,2 0 0 0 -2.82,-2.83 l -3.42,3.42 -1.76,-1.76 a 2,2 0 0 0 -2.82,2.83 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path8"
+       d="m 62,44 h 15 a 2,2 0 0 0 0,-4 H 62 a 2,2 0 0 0 0,4 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path10"
+       d="m 62,60 h 12 a 2,2 0 0 0 0,-4 H 62 a 2,2 0 0 0 0,4 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path12"
+       d="m 62,76 h 16 a 2,2 0 0 0 0,-4 H 62 a 2,2 0 0 0 0,4 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path14"
+       d="m 44.59,57.66 3.17,3.17 a 2,2 0 0 0 2.82,0 L 55.41,56 a 2,2 0 0 0 -2.82,-2.83 l -3.42,3.42 -1.76,-1.76 a 2,2 0 0 0 -2.82,2.83 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path16"
+       d="m 44.59,73.66 3.17,3.17 a 2,2 0 0 0 2.82,0 L 55.41,72 a 2,2 0 0 0 -2.82,-2.83 l -3.42,3.42 -1.76,-1.76 a 2,2 0 0 0 -2.82,2.83 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path18"
+       d="M 33.88,36 H 6.12 A 6.12,6.12 0 0 0 0,42.12 V 97.88 A 6.12,6.12 0 0 0 6.12,104 H 33.88 A 6.12,6.12 0 0 0 40,97.88 V 42.12 A 6.12,6.12 0 0 0 33.88,36 Z M 36,97.88 A 2.12,2.12 0 0 1 33.88,100 H 6.12 A 2.12,2.12 0 0 1 4,97.88 V 42.12 A 2.12,2.12 0 0 1 6.12,40 H 33.88 A 2.12,2.12 0 0 1 36,42.12 Z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path20"
+       d="m 17.34,70.75 a 2,2 0 0 0 2.83,0 l 7.24,-7.25 a 2,2 0 0 0 -2.82,-2.82 l -5.83,5.83 -3.35,-3.35 A 2.0011247,2.0011247 0 1 0 12.59,66 Z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path22"
+       d="M 30,76 H 10 a 2,2 0 0 0 0,4 h 20 a 2,2 0 0 0 0,-4 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path24"
+       d="m 18,84 h -8 a 2,2 0 0 0 0,4 h 8 a 2,2 0 0 0 0,-4 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path26"
+       d="m 18,48 h 4 a 2,2 0 0 0 0,-4 h -4 a 2,2 0 0 0 0,4 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path28"
+       d="m 103,76 h -8 a 4.1,4.1 0 0 1 -4,-4 v -7 h -7 a 4.1,4.1 0 0 1 -4,-4 v -8 a 4.11,4.11 0 0 1 4,-4 h 7 v -7 a 4.11,4.11 0 0 1 4,-4 h 8 a 4.11,4.11 0 0 1 4,4 v 7 h 7 a 4.11,4.11 0 0 1 4,4 v 8 a 4.11,4.11 0 0 1 -4,4 h -7 v 7 a 4.1,4.1 0 0 1 -4,4 z m 0,-13 a 2,2 0 0 1 2,-2 h 9 v -8 h -9 a 2,2 0 0 1 -2,-2 v -9 h -8 v 9 a 2,2 0 0 1 -2,2 h -9 v 8 h 9 a 2,2 0 0 1 2,2 v 9 h 8 z"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
