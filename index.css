@@ -16,7 +16,8 @@ li {
   margin-left: 1.5em;
 }
 
-h3, 
+h3,
+h4,
 p {
   text-align: center;
 }
@@ -39,6 +40,43 @@ nav {
 /* Skills Section */
 
 /* Main (Work) */
+
+#work {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 50px;
+}
+
+main h3 {
+  grid-column: 1/-1;
+}
+
+.featured {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-hidden {
+  display: none;
+}
+
+main > button {
+  grid-column: 1/-1;
+  margin: 0 auto;
+}
 
 /* Footer */
 
