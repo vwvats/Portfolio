@@ -100,6 +100,11 @@ main > button {
   margin: 0 auto;
 }
 
+.disclaimer {
+  font-size: 0.75rem;
+  grid-column: 1/-1;
+}
+
 /* Footer */
 
 #contact ul {
