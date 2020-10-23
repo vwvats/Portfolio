@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
   <!-- Main CSS -->
   <link rel="stylesheet" href="index.css">
+  <!-- AOS Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- JavaScript -->
   <script src="index.js" defer></script>
 </head>
@@ -19,46 +21,82 @@
     <nav>
       <h1>V. W. Vats</h1>
       <ul>
-        <li class="slide-out-1" id="nav-1"><a href="#skills">Skills</a></li>
-        <li class="slide-out-3" id="nav-2"><a href="#work">Work</a></li>
-        <li class="slide-out-3" id="nav-3"><a href="#contact">Contact</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
-    <p class="title">Greetings! My name is <span>Vivek,</span> a guy passionate about all things JavaScript.</p>
-    <p class="subtitle">I'm a Web Developer proficient in React & TypeScript who loves solving problems and building things. I also love learning because it allows me to solve bigger problems and build better things.</p>
-    <a href="#contact" class="cta">Get in Touch</a>
+    <p class="title" 
+    data-aos="fade-right"
+    data-aos-duration="1000">
+    Greetings! My name is <span>Vivek,</span> a guy passionate about all things JavaScript.</p>
+
+    <p class="subtitle"
+    data-aos="fade-left"
+    data-aos-duration="1200"
+    >
+      I'm a Web Developer proficient in React & TypeScript who loves solving problems and building things. I also love learning because it allows me to solve bigger problems and build better things.</p>
+    <a href="#contact" class="cta"
+    data-aos="fade-up"
+    data-aos-duration="1400">
+      Get in Touch</a>
   </header>
 
   <section id="skills">
     <h3>My Skills</h3>
     <div class="skill-list"> 
-      <img src="svg/html.svg" alt="HTML 5" class="svg" title="HTML">
-      <img src="svg/css.svg" alt="CSS 3" class="svg" title="CSS">
-      <img src="svg/sass.svg" alt="Sass" class="svg" title="Sass">
-      <img src="svg/tailwind-css.svg" alt="Tailwind CSS" class="svg" title="Tailwind CSS">
-      <img src="svg/bootstrap-5.svg" alt="Bootstrap 5" class="svg" title="Bootstrap 5">
-      <img src="svg/responsive-design.svg" alt="Responsive Web Design" class="svg" title="Responsive Design">
-      <img src="svg/web-performance.svg" alt="Web Performance" class="svg" title="Web Performance">
-      <img src="svg/ux-ui.svg" alt="UX & UI Design" class="svg" title="UX & UI Design">
-      <img src="svg/wordpress.svg" alt="Wordpress" class="svg" title="Wordpress">
-      <img src="svg/javascript.svg" alt="JavaScript" class="svg" title="JavaScript">
-      <img src="svg/typescript.svg" alt="TypeScript" class="svg" title="TypeScript">
-      <img src="svg/jquery.svg" alt="jQuery" class="svg" title="jQuery">
-      <img src="svg/react.svg" alt="React" class="svg" title="React">
-      <img src="svg/bash.svg" alt="UNIX Bash" class="svg" title="Bash/Shell">
-      <img src="svg/git.svg" alt="Git" class="svg" title="Git">
-      <img src="svg/github.svg" alt="GitHub" class="svg" title="GitHub">
-      <img src="svg/npm.svg" alt="Npm" class="svg" title="Npm">
-      <img src="svg/webpack.svg" alt="Webpack" class="svg" title="Webpack">
-      <img src="svg/babel.svg" alt="Babel" class="svg" title="Babel">
-      <img src="svg/gulp.svg" alt="Gulp" class="svg" title="Gulp">
+      <img data-aos="zoom-in" data-aos-duration="800"
+      src="svg/html.svg" alt="HTML 5" class="svg" title="HTML">
+      <img data-aos="zoom-in" data-aos-duration="800"
+      src="svg/css.svg" alt="CSS 3" class="svg" title="CSS">
+      <img data-aos="zoom-in" data-aos-duration="800"
+      src="svg/sass.svg" alt="Sass" class="svg" title="Sass">
+      <img data-aos="zoom-in" data-aos-duration="800"
+      src="svg/tailwind-css.svg" alt="Tailwind CSS" class="svg" title="Tailwind CSS">
+      
+      <img data-aos="zoom-in" data-aos-duration="1000"
+      src="svg/bootstrap-5.svg" alt="Bootstrap 5" class="svg" title="Bootstrap 5">
+      <img data-aos="zoom-in" data-aos-duration="1000"
+      src="svg/responsive-design.svg" alt="Responsive Web Design" class="svg" title="Responsive Design">
+      <img data-aos="zoom-in" data-aos-duration="1000"
+      src="svg/web-performance.svg" alt="Web Performance" class="svg" title="Web Performance">
+      <img data-aos="zoom-in" data-aos-duration="1000"
+      src="svg/ux-ui.svg" alt="UX & UI Design" class="svg" title="UX & UI Design">
+      
+      <img data-aos="zoom-in" data-aos-duration="1200" 
+      src="svg/wordpress.svg" alt="Wordpress" class="svg" title="Wordpress">
+      <img data-aos="zoom-in" data-aos-duration="1200" 
+      src="svg/javascript.svg" alt="JavaScript" class="svg" title="JavaScript">
+      <img data-aos="zoom-in" data-aos-duration="1200" 
+      src="svg/typescript.svg" alt="TypeScript" class="svg" title="TypeScript">
+      <img data-aos="zoom-in" data-aos-duration="1200" 
+      src="svg/jquery.svg" alt="jQuery" class="svg" title="jQuery">
+      
+      <img data-aos="zoom-in" data-aos-duration="1400" 
+      src="svg/react.svg" alt="React" class="svg" title="React">
+      <img data-aos="zoom-in" data-aos-duration="1400" 
+      src="svg/bash.svg" alt="UNIX Bash" class="svg" title="Bash/Shell">
+      <img data-aos="zoom-in" data-aos-duration="1400" 
+      src="svg/git.svg" alt="Git" class="svg" title="Git">
+      <img data-aos="zoom-in" data-aos-duration="1400" 
+      src="svg/github.svg" alt="GitHub" class="svg" title="GitHub">
+
+      <img data-aos="zoom-in" data-aos-duration="1600" 
+      src="svg/npm.svg" alt="Npm" class="svg" title="Npm">
+      <img data-aos="zoom-in" data-aos-duration="1600" 
+      src="svg/webpack.svg" alt="Webpack" class="svg" title="Webpack">
+      <img data-aos="zoom-in" data-aos-duration="1600" 
+      src="svg/babel.svg" alt="Babel" class="svg" title="Babel">
+      <img data-aos="zoom-in" data-aos-duration="1600" 
+      src="svg/gulp.svg" alt="Gulp" class="svg" title="Gulp">
     </div>
   </section>
 
   <main id="work">
     <h3>My Work</h3>
-    <section class="featured">
+    <section data-aos="fade-right" data-aos-duration="1200" 
+    class="featured">
       <div class="featured-img">
         <img src="images/music-player.jpg" alt="music player project image">
         <div class="overlay">
@@ -74,7 +112,8 @@
       <h4>Solitude Music Player</h4>
     </section>
 
-    <section class="featured">
+    <section data-aos="zoom-in" data-aos-duration="1200"
+    class="featured">
       <div class="featured-img">
         <img src="images/punk-beer.jpg" alt="punk beer project image">
         <div class="overlay">
@@ -90,7 +129,8 @@
       <h4>Punk API Beer App</h4>
     </section>
 
-    <section class="featured">
+    <section data-aos="fade-left" data-aos-duration="1200"
+    class="featured">
       <div class="featured-img">
         <img src="images/picture-in-picture.jpg" alt="picture in picture project image">
         <div class="overlay">
@@ -106,7 +146,8 @@
       <h4>Picture in Picture*</h4>
     </section>
 
-    <section class="featured">
+    <section data-aos="fade-right" data-aos-duration="1500"
+    class="featured">
       <div class="featured-img">
         <img src="images/a-simple-life.jpg" alt="a simple life project image">
         <div class="overlay">
@@ -122,7 +163,8 @@
       <h4>A Simple Life</h4>
     </section>
 
-    <section class="featured">
+    <section data-aos="zoom-in" data-aos-duration="1500"
+    class="featured">
       <div class="featured-img">
         <img src="images/bbq-splash-page.jpg" alt="bbq splash page project image">
         <div class="overlay">
@@ -138,7 +180,8 @@
       <h4>BBQ Splash Page</h4>
     </section>
 
-    <section class="featured">
+    <section data-aos="fade-left" data-aos-duration="1500"
+    class="featured">
       <div class="featured-img">
         <img src="images/jake-and-elwood.jpg" alt="jake and elwood project image">
         <div class="overlay">
@@ -257,22 +300,31 @@
   <footer id="contact">
     <h3>Contact Me</h3>
     <section class="social">
-        <a href="mailto: vwvats@gmail.com">
+        <a data-aos="zoom-in" data-aos-duration="1000"
+        href="mailto: vwvats@gmail.com">
         <i class="fa fa-envelope" aria-hidden="true" title="Email"></a></i> 
 
-        <a href="https://github.com/vwvats" target="_blank">
+        <a data-aos="zoom-in" data-aos-duration="1400"
+        href="https://github.com/vwvats" target="_blank">
         <i class="fa fa-github-alt" aria-hidden="true" title="GitHub"></i></a>
 
-        <a href="https://www.linkedin.com/in/vwvats/" target="_blank">
+        <a data-aos="zoom-in" data-aos-duration="1600"
+        href="https://www.linkedin.com/in/vwvats/" target="_blank">
         <i class="fa fa-linkedin" aria-hidden="true" title="LinkedIn"></i></a>
 
         <!-- Add download link to resume?? -->
-        <a href="#">
+        <a data-aos="zoom-in" data-aos-duration="1800"
+        href="#">
         <i class="fa fa-arrow-circle-o-down" aria-hidden="true" title="Download Resume"></i></a>
 
-        <a href="tel: 814-991-2611">
+        <a data-aos="zoom-in" data-aos-duration="2000"
+        href="tel: 814-991-2611">
         <i class="fa fa-phone" aria-hidden="true" title="Mobile"></i></a>
     </section>
   </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

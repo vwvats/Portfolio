@@ -7,4 +7,5 @@ function showMoreProjects() {
   }
   viewButton.style.display = 'none';
 }
+
 viewButton.addEventListener('click', showMoreProjects);
