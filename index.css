@@ -146,7 +146,6 @@ nav ul li a:active {
   margin: 0;
   -webkit-transition: transform 0.25s; 
   transition: transform 0.25s;
-  z-index: 9;
 }
 
 #cta:hover {
@@ -180,6 +179,7 @@ nav ul li a:active {
   min-height: 75px;
   min-width: 75px;
   margin: 10px;
+  outline: 5px solid var(--color-tertiary);
 }
 
 
@@ -206,7 +206,7 @@ nav ul li a:active {
 }
 
 .featured-img {
-  outline: 5px solid var(--color-accent);
+  outline: 5px solid var(--color-tertiary);
   height: 300px;
   position: relative;
 }
@@ -310,6 +310,7 @@ nav ul li a:active {
 }
 
 #social a {
+  outline: 5px solid var(--color-main);
   -webkit-transition: transform 0.25s;
   transition: transform 0.3s;
 }
@@ -317,7 +318,6 @@ nav ul li a:active {
 #social a:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-
 }
 
 #social a:active {
@@ -363,13 +363,17 @@ nav ul li a:active {
     margin-bottom: 20px;
   }
 
-  .social {
+  #social {
     flex-direction: column;
     padding-bottom: 3em;
   }
 
-  .social a {
+  #social a {
     align-self: center;
+  }
+
+  #social a:first-of-type {
+    margin-left: 20px;
   }
 }
 
