@@ -7,9 +7,9 @@ FF36AB
 /* General Styles*/
 
 :root {
-  --color-main: #fff;
-  --color-secondary: blue;
-  --color-accent: orange;
+  --color-main: #143774;
+  --color-secondary: #707070;
+  --color-accent: #1792d2;
 }
 
 html {
