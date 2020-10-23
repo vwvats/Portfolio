@@ -120,7 +120,8 @@ nav ul li a {
   transition: all 0.3s;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a:active {
   color: var(--color-main);
 }
 
@@ -147,6 +148,10 @@ nav ul li a:hover {
 
 .cta:hover {
   transform: scale(1.1);
+}
+
+.cta:active {
+  transform: scale(0.9);
 }
 
 
@@ -249,6 +254,10 @@ nav ul li a:hover {
   background-color: var(--color-tertiary);
 }
 
+.overlay a:active {
+  transform: scale(0.9);
+}
+
 .hidden {
   display: none;
 }
@@ -263,6 +272,10 @@ nav ul li a:hover {
   transform: scale(1.1);
 }
 
+#view-button:active {
+  transform: scale(0.9);
+}
+
 .disclaimer {
   font-size: 0.75rem;
   grid-column: 1/-1;
@@ -272,7 +285,7 @@ nav ul li a:hover {
 
 #contact {
   background-color: var(--color-main);
-  background-image: url(images/contact3.jpg);
+  background-image: url(images/contact.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
@@ -290,6 +303,10 @@ nav ul li a:hover {
 
 #contact li:hover {
   transform: scale(1.1);
+}
+
+#contact li:active {
+  transform: scale(0.9);
 }
 
 #contact li:first-child {
