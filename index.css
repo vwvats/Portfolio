@@ -141,6 +141,12 @@ nav ul li a:active {
   font-size: 1.8rem;
 }
 
+header p:last-of-type {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+
 #cta {
   width: fit-content;
   align-self: center;
@@ -159,6 +165,23 @@ nav ul li a:active {
   transform: scale(0.9);
 }
 
+#resume {
+  width: fit-content;
+  align-self: center;
+  margin-left: 1em;
+  -webkit-transition: transform 0.25s; 
+  transition: transform 0.25s;
+}
+
+#resume:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#resume:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(0.9);
+}
 
 /* Skills Section */
 
@@ -375,6 +398,21 @@ nav ul li a:active {
 
   #social a:first-of-type {
     margin-left: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  header {
+    margin-top: 2em;
+  }
+
+  header p:last-of-type {
+    flex-direction: column;
+  }
+
+  #resume {
+    margin: 0;
+    margin-top: 1em;
   }
 }
 
