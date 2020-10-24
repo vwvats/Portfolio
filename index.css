@@ -187,6 +187,7 @@ header p:last-of-type {
 
 #skills {
   padding-top: 1em;
+  margin: 1em 10%;
 }
 
 .skill-list {
@@ -194,7 +195,6 @@ header p:last-of-type {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 1em 10%;
 }
 
 .svg {
@@ -207,7 +207,7 @@ header p:last-of-type {
 }
 
 .skill-list > * {
-  justify-self: center;
+  justify-self: flex-start;
 }
 
 
@@ -362,7 +362,7 @@ header p:last-of-type {
   padding-top: 0.75em 1.5em;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 880px) {
   nav {
     flex-direction: column;
     align-items: flex-start;
@@ -374,6 +374,7 @@ header p:last-of-type {
 
   nav ul {
     margin: 0;
+    margin-bottom: 0.75em;
   }
 
   nav ul li:first-of-type {
@@ -406,8 +407,8 @@ header p:last-of-type {
 }
 
 @media (max-width: 650px) {
-  header {
-    margin-top: 2em;
+  .title {
+    margin-top: 5em;
   }
 
   header p:last-of-type {
