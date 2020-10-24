@@ -202,8 +202,12 @@ header p:last-of-type {
   max-width: 100px;
   min-height: 75px;
   min-width: 75px;
-  margin: 10px;
+  margin: 20px;
   outline: 5px solid var(--color-tertiary);
+}
+
+.skill-list > * {
+  justify-self: center;
 }
 
 
