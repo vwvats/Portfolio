@@ -2,9 +2,9 @@
 
 :root {
   --color-main: #143774;
-  --color-secondary: #efe9e7;
+  --color-secondary: #fff;
   --color-tertiary: #1792d2;
-  --color-accent: #bfab25;
+  --color-accent: #ffd700;
   --font-main: 'Catamaran', sans-serif;
   --font-secondary: 'Slabo 27px', serif;
 }
@@ -58,6 +58,7 @@ a {
   background: var(--color-accent);
   color: var(--color-main);
   cursor: pointer;
+  font-family: inherit;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
@@ -222,7 +223,7 @@ nav ul li a:active {
   position: absolute;
   left: 0;
   top: 0;
-  background: rgba(191,171,37,0.9);
+  background: rgba(255,215,0,0.9);
   color: var(--color-main);
   height: 100%;
   width: 100%;
@@ -230,7 +231,7 @@ nav ul li a:active {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 1em;
+  padding: 1.5em;
   opacity: 0;
   transition: opacity 0.3s;
 }
@@ -316,8 +317,8 @@ nav ul li a:active {
 }
 
 #social a:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 #social a:active {
