@@ -119,7 +119,7 @@ nav ul li a {
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
-  transition: all 0.3s;
+  transition: all 0.25s;
 }
 
 nav ul li a:hover,
@@ -151,6 +151,7 @@ header p:last-of-type {
   width: fit-content;
   align-self: center;
   margin: 0;
+  will-change: transform;
   -webkit-transition: transform 0.25s; 
   transition: transform 0.25s;
 }
@@ -169,6 +170,7 @@ header p:last-of-type {
   width: fit-content;
   align-self: center;
   margin-left: 1em;
+  will-change: transform;
   -webkit-transition: transform 0.25s; 
   transition: transform 0.25s;
 }
@@ -260,12 +262,14 @@ header p:last-of-type {
   justify-content: center;
   padding: 1.5em;
   opacity: 0;
+  will-change: opacity;
   transition: opacity 0.3s;
 }
 
 .overlay > * {
   font-size: 1.1rem;
   transform: translateY(50px);
+  will-change: transform;
   transition: transform 0.3s;
 }
 
@@ -273,6 +277,7 @@ header p:last-of-type {
   background-color:var(--color-main);
   color:  var(--color-secondary);
   font-weight: 400;
+  will-change: background;
   transition: background 0.3s;
 }
 
@@ -299,6 +304,7 @@ header p:last-of-type {
 #view-button {
   grid-column: 1/-1;
   margin: 0 auto;
+  will-change: transform;
   -webkit-transition: transform 0.25s;
   transition: transform 0.25s;
 }
@@ -338,7 +344,9 @@ header p:last-of-type {
 }
 
 #social a {
+  margin: 1em;
   outline: 5px solid var(--color-main);
+  will-change: transform;
   -webkit-transition: transform 0.25s;
   transition: transform 0.3s;
 }
@@ -357,9 +365,8 @@ header p:last-of-type {
   margin-left: 0;
 }
 
-#contact a {
-  margin: 1em;
-  padding-top: 0.75em 1.5em;
+#social .fa {
+  font-size: 2.5rem;
 }
 
 @media (max-width: 880px) {
