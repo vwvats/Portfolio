@@ -86,9 +86,16 @@ li {
 
 /* Header */
 
+.no-webp header {
+  background-image: url(images/header.jpg);
+}
+
+.webp header {
+  background-image: url(images/header.webp);
+}
+
 header {
   background-color: var(--color-main);
-  background-image: url(images/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
@@ -327,9 +334,16 @@ header p:last-of-type {
 
 /* Footer */
 
+.no-webp #contact {
+  background-image: url(images/contact.jpg);
+}
+
+.webp #contact {
+  background-image: url(images/contact.webp);
+}
+
 #contact {
   background-color: var(--color-main);
-  background-image: url(images/contact.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
@@ -480,12 +494,25 @@ PHONE HEADACHES
     height: 220px;
   }
 
+  .overlay {
+    flex-direction: column;
+  }
+
+  .overlay p {
+    margin: 1.5em;
+  }
+
+  .overlay a {
+    margin: 0;
+    margin-bottom: 1em;
+  }
+
   #social a:first-of-type {
-    margin-left: 15px;
+    margin-left: 10px;
   }
 
   #social a {
-    margin: 15px;
-    padding: 15px;
+    margin: 10px;
+    padding: 10px;
   }
 } 

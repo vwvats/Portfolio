@@ -9,6 +9,8 @@
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <!-- Typography -->
   <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Slabo+27px&display=swap" rel="stylesheet">
+  <!-- Modernizr for webp -->
+  <script src="modernizr-webp.js"></script>
   <!-- AOS Library -->
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <!-- Main CSS -->
@@ -115,7 +117,11 @@
     <section data-aos="flip-right" data-aos-duration="1500" 
     class="featured">
       <div class="featured-img">
-        <img src="images/music-player.jpg" alt="music player project image">
+        <picture>
+          <source type="image/webp" srcset="images/music-player.webp">
+          <source type="image/jpeg" srcset="images/music-player.jpg">
+          <img src="images/music-player.jpg" alt="music player project image">
+        </picture>
         <div class="overlay">
           <p>A music player loaded with some of my favorite compositions.</p>
           <a href="https://vwvats.github.io/solitude-music-player/" target="_blank">
@@ -132,7 +138,11 @@
     <section data-aos="flip-right" data-aos-duration="1500"
     class="featured">
       <div class="featured-img">
-        <img src="images/punk-beer.jpg" alt="punk beer project image">
+        <picture>
+          <source type="image/webp" srcset="image/punk-beer.webp">
+          <source type="image/jpeg" srcset="images/punk-beer.jpg">
+          <img src="images/punk-beer.jpg" alt="punk beer project image">
+        </picture>
         <div class="overlay">
           <p>A dynamic webpage that displays beer information from around the world. Also filters data according to user parameters.</p>
           <a href="https://vwvats.github.io/punk-beer/" target="_blank">
@@ -149,7 +159,12 @@
     <section data-aos="flip-right" data-aos-duration="1500"
     class="featured">
       <div class="featured-img">
-        <img src="images/picture-in-picture.jpg" alt="picture in picture project image">
+        <picture>
+          <source type="image/webp" srcset="images/picture-in-picture.webp">
+          <source type="image/jpeg" srcset="images/picture-in-picture.jpg">        
+          <img src="images/picture-in-picture.jpg" alt="picture in picture project image">
+        </picture>
+
         <div class="overlay">
           <p>A 'Picture in Picture' app that allows users to detach a streaming video and float it anywhere on their screen.</p>
           <a href="https://vwvats.github.io/picture-in-picture/" target="_blank">
@@ -166,7 +181,11 @@
     <section data-aos="flip-right" data-aos-duration="1500"
     class="featured">
       <div class="featured-img">
-        <img src="images/a-simple-life.jpg" alt="a simple life project image">
+        <picture>
+          <source type="image/webp" srcset="images/a-simple-life.webp">
+            <source type="image/jpeg" srcset="images/a-simple-life.jpg">
+            <img src="images/a-simple-life.jpg" alt="a simple life project image">
+        </picture>
         <div class="overlay">
           <p>A fully responsive, three page blog website on minimalism.</p>
           <a href="https://vwvats.github.io/a-simple-life/" target="_blank">
@@ -183,7 +202,11 @@
     <section data-aos="flip-right" data-aos-duration="1500"
     class="featured">
       <div class="featured-img">
-        <img src="images/bbq-splash-page.jpg" alt="bbq splash page project image">
+        <picture>
+          <source type="image/webp" srcset="images/bbq-splash-page.webp">
+          <source type="image/jpeg" srcset="images/bbq-splash-page.jpg">
+          <img src="images/bbq-splash-page.jpg" alt=" project image">
+        </picture>
         <div class="overlay">
           <p>A fully responsive landing page that collects email and displays a custom message on user submission.</p>
           <a href="https://vwvats.github.io/bbq-splash-page/" target="_blank">
@@ -200,7 +223,11 @@
     <section data-aos="flip-right" data-aos-duration="1500"
     class="featured">
       <div class="featured-img">
-        <img src="images/jake-and-elwood.jpg" alt="jake and elwood project image">
+        <picture>
+          <source type="image/webp" srcset="jake-and-elwood.webp">
+          <source type="image/jpeg" srcset="jake-and-elwoodjpg">
+          <img src="images/jake-and-elwood.jpg" alt="jake and elwood project image">
+        </picture>
         <div class="overlay">
           <p>A fully responsive, three page website for a digital agency.</p>
           <a href="https://vwvats.github.io/jake-and-elwood/" target="_blank">
@@ -216,7 +243,11 @@
 
     <section class="hidden featured">
       <div class="featured-img">
-        <img src="images/scenic-forests.jpg" alt="scenic forests project image">
+        <picture>
+          <source type="image/webp" srcset="images/scenic-forests.webp">
+          <source type="image/jpeg" srcset="images/scenic-forests.jpg">
+          <img src="images/scenic-forests.jpg" alt="scenic forests project image">
+        </picture>
         <div class="overlay">
           <p>A fully responsive, two page website for a cabin rental company.</p>
           <a href="https://vwvats.github.io/scenic-forests/" target="_blank">
@@ -232,7 +263,11 @@
     
     <section class="hidden featured">
       <div class="featured-img">
-        <img src="images/wise-words.jpg" alt="wise words project image">
+        <picture>
+          <source type="image/webp" srcset="images/wise-words.webp">
+          <source type="image/jpeg" srcset="images/wise-words.jpg">
+          <img src="images/wise-words.jpg" alt="wise words project image">
+        </picture>
         <div class="overlay">
           <p>An inspirational quotes generator that also has a tweet functionality.</p>
           <a href="https://vwvats.github.io/wise-words/" target="_blank">
@@ -248,7 +283,11 @@
 
     <section class="hidden featured">
       <div class="featured-img">
-        <img src="images/dark-kitty.jpg" alt="dark kitty project image">
+        <picture>
+          <source type="image/webp" srcset="images/dark-kitty.webp">
+          <source type="image/jpeg" srcset="images/dark-kitty.jpg">
+          <img src="images/dark-kitty.jpg" alt="dark kitty project image">
+        </picture>
         <div class="overlay">
           <p>An animated kitty that tells dark jokes on the click of a button.</p>
           <a href="https://vwvats.github.io/dark-kitty/" target="_blank">
@@ -264,7 +303,11 @@
 
     <section class="hidden featured">
       <div class="featured-img">
-        <img src="images/pacman.jpg" alt="pacman project image">
+        <picture>
+          <source type="image/webp" srcset="images/pacman.webp">
+          <source type="image/jpeg" srcset="images/pacman.jpg">
+          <img src="images/pacman.jpg" alt="pacman project image">
+        </picture>
         <div class="overlay">
           <p>The retro game Puckman, renamed Pacman due to fears of corrupting the youth.</p>
           <a href="https://vwvats.github.io/pacman/" target="_blank">
@@ -280,7 +323,12 @@
 
     <section class="hidden featured">
       <div class="featured-img special-img">
-        <img src="images/rock-lizard-spock.png" alt="rock lizard spock project image">
+        <picture>
+          <source type="image/webp" srcset="images/rock-lizard-spock.webp">
+          <source type="image/png" srcset="images/rock-lizard-spock.png">
+          <img src="images/rock-lizard-spock.png" alt="rock lizard spock project image">
+        </picture>
+
         <div class="overlay">
           <p>A variant on the classic rock, paper, & scissors game introduced in the TV show The Big Bang Theory.</p>
           <a href="https://vwvats.github.io/rock-lizard-spock/" target="_blank">
@@ -296,7 +344,11 @@
 
     <section class="hidden featured">
       <div class="featured-img">
-        <img src="images/snake.jpg" alt="nokia snake project image">
+        <picture>
+          <source type="image/webp" srcset="images/snake.webp">
+          <source type="image/jpeg" srcset="images/snake.jpg">
+          <img src="images/snake.jpg" alt="nokia snake project image">
+        </picture>
         <div class="overlay">
           <p>The classic snake game introduced by Nokia in their early phones.</p>
           <a href="https://vwvats.github.io/nokia-snake/" target="_blank">
