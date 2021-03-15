@@ -9,6 +9,13 @@
   --font-secondary: 'Slabo 27px', serif;
 }
 
+* {
+  -webkit-backface-visibility: hidden; 
+  -ms-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -47,7 +54,8 @@ p {
 }
 
 h4 {
-  margin-top: 0.5em;
+  padding-top: 0;
+  margin-top: 1em;
 }
 
 p {
@@ -56,6 +64,7 @@ p {
 
 a {
   background: var(--color-accent);
+  border-radius: 10px;
   color: var(--color-main);
   cursor: pointer;
   font-family: inherit;
@@ -64,6 +73,10 @@ a {
   text-decoration: none;
   margin-left: 1em;
   padding: 0.4em 0.8em;
+}
+
+a:only-of-type {
+  margin-left: 0.5em;
 }
 
 .fa {
@@ -87,11 +100,11 @@ li {
 /* Header */
 
 .no-webp header {
-  background-image: url(images/header.jpg);
+  background-image: url(/assets/images/header.jpg);
 }
 
 .webp header {
-  background-image: url(images/header.webp);
+  background-image: url(/assets/images/header.webp);
 }
 
 header {
@@ -224,11 +237,11 @@ header p:last-of-type {
 
 #projects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-column-gap: 35px;
   grid-row-gap: 70px;
   margin: 1em auto;
-  width: 90%;
+  width: 50%;
 }
 
 #projects h3 {
@@ -243,7 +256,7 @@ header p:last-of-type {
 }
 
 .featured-img {
-  outline: 5px solid var(--color-tertiary);
+  box-sizing: border-box;
   height: 300px;
   position: relative;
 }
@@ -327,7 +340,7 @@ header p:last-of-type {
 }
 
 .disclaimer {
-  font-size: 0.75rem;
+  font-size: 1.25rem;
   grid-column: 1/-1;
 }
 
@@ -335,11 +348,11 @@ header p:last-of-type {
 /* Footer */
 
 .no-webp #contact {
-  background-image: url(images/contact.jpg);
+  background-image: url(/assets/images/contact.jpg);
 }
 
 .webp #contact {
-  background-image: url(images/contact.webp);
+  background-image: url(/assets/images/contact.webp);
 }
 
 #contact {
@@ -359,7 +372,6 @@ header p:last-of-type {
 
 #social a {
   margin: 1em;
-  outline: 5px solid var(--color-main);
   will-change: transform;
   -webkit-transition: transform 0.25s;
   transition: transform 0.3s;
